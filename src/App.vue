@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <hello></hello>
+    <diagram-panel></diagram-panel>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello';
+import DiagramPanel from './components/DiagramPanel';
 import miniToastr from 'mini-toastr';
 
 export default {
   name: 'app',
   components: {
-    Hello
+    DiagramPanel
   },
   mounted () {
     miniToastr.init();
